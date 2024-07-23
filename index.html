@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors | natecayet</title>
+</head>
+<body>
+    <div id="game-display">
+        <div id="player-choice-container">
+            <div id="player-choice"></div>
+            <p>Player</p>
+        </div>
+
+        <p id="text-display"></p>
+
+        <div id="computer-choice-container">
+            <div id="computer-choice"></div>
+            <p>Computer</p>
+        </div>
+
+    </div>
+
+    <div id="game-container">
+        <div id="main-text-container">
+            <p id="main-text">Choose your play. First to score 5 wins!</p>
+        </div>
+        <div id="game-scores-container">
+            <p id="player">Player: <span id="player-score">0</span></p>
+            <p id="round">Round: <span id="current-round">-</span></p>
+            <p id="computer">Computer: <span id="computer-score">0</span></p>
+        </div>
+        <div id="player-choices">
+            <button id="rock-btn">
+                <img src="./icons/rock.svg" alt="rock icon">
+            </button>
+            <button id="paper-btn">
+                <img src="./icons/paper.svg" alt="paper icon">
+            </button>
+            <button id="scissors-btn">
+                <img src="./icons/scissors.svg" alt="scissors icon">
+            </button>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
